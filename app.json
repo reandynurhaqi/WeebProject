@@ -165,7 +165,10 @@
       "plan": "heroku-postgresql",
       "options": {
         "version": "12"
-      }
+        "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
     }
-  ]
+  }
 }
